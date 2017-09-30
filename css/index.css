@@ -1,0 +1,113 @@
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	border-bottom: solid 1px; 
+}
+
+footer{
+	border-top: solid 1px #dbdbdb;
+	padding: 50px 200px;
+	text-align: left;
+	min-width: 865px;
+}
+
+.info1{
+	border-bottom:solid 1px #dbdbdb;
+	padding-bottom: 50px;
+
+}
+.info1>div{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 15%;
+}
+.info1>div:last-child{
+	margin-right: 0;
+}
+
+.info1 .choose{
+	font-size: 19px;
+	margin: 0 80px 0 0;
+	width:25%;
+}
+.info1 .choose>div{
+	border: solid 1px #dbdbdb; 
+	padding: 10px 17px;
+	margin-bottom: 8px;
+	position: relative;
+}
+
+.language:after,.money:after{
+	content: "";
+	display:inline-block;
+	position: absolute;
+	right: 0;
+	width: 25px;
+	height: 25px;
+	background-image: url(../images/row.png);
+	background-size: cover;
+	margin-right: 5px;
+}
+.info1 ul{
+	color: black;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	font-size: 15px;
+}
+.info1 li{
+	color: #767676;
+	list-style-type: none;
+	text-align: left;
+	margin-bottom: 2px;
+}
+.info1 li:first-child{
+	margin-top: 12px;
+}
+.info2{
+	color:  #767676;
+	padding: 25px 0;
+	text-align: left;
+	font-size: 15px;
+}
+
+
+.info2 .company{
+	width: 45%;
+	display: inline-block;
+}
+.info2 .company:before{
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../images/airbnb.png);
+	background-size: cover;
+	margin:0 10px 15px 0;
+}
+.info2 .company p{
+	display: inline-block;
+	width: 80%;
+	margin: 0;
+
+}
+.info2 .link{
+	float: right;
+}
+
+.info2 .link img{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+.info2 .link .pic:hover{
+	border-bottom:none;
+}
+
+.main{
+	height: 350px;
+}
